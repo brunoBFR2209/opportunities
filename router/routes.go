@@ -1,10 +1,9 @@
 package router
 
 import (
-	"api-opportunities/docs"
 	"api-opportunities/handler"
-
 	"github.com/gin-gonic/gin"
+	docs "api-opportunities/docs"
 	swaggerFiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"
 )
